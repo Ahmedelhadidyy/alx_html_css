@@ -98,3 +98,22 @@ nav ul li a {
     color: #fff;
     padding: 10px;
 }
+#quote{
+    background-color: #C271FF;
+    margin-top: -85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+#quote img {
+    height: 160px;
+    width: 160px;
+}
+#quote div {
+    color: #fff;
+    margin-left: 50px;
+}
+#quote div h3{
+    margin-top: 30px;
+}
