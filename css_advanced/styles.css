@@ -259,4 +259,21 @@ nav ul li a {
     margin-bottom: 10px;
     margin-top: 20px;
 }
-
+footer{
+    background: #071629;
+    height: 250px;
+}
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: .7em;
+    margin-top: 0;
+}
