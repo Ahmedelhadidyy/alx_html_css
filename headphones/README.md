@@ -21,17 +21,18 @@ Thank you for visiting **Headphones**! We hope you find the perfect headphones t
 
 
 
-
-
-.head div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 17em;
-    color: white;
+#results2 div{
+    position: relative;
 }
-e132
-.head div h1{
-    font-size: 2em;
+
+#results2 div div {
+    position: absolute;
+}
+
+
+
+
+
+.results2{
+    display: flex;
 }
