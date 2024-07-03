@@ -15,3 +15,23 @@ For any inquiries or feedback, please contact us at:
 - **Facebook**: [Headphones](https://facebook.com/Headphones)
 
 Thank you for visiting **Headphones**! We hope you find the perfect headphones that meet your needs.
+
+
+
+
+
+
+
+
+.head div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17em;
+    color: white;
+}
+e132
+.head div h1{
+    font-size: 2em;
+}
