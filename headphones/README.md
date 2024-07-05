@@ -20,19 +20,3 @@ Thank you for visiting **Headphones**! We hope you find the perfect headphones t
 
 
 
-
-#results2 div{
-    position: relative;
-}
-
-#results2 div div {
-    position: absolute;
-}
-
-
-
-
-
-.results2{
-    display: flex;
-}

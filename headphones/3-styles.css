@@ -73,7 +73,7 @@ header nav ul li a:hover{
 .head div div h1{
     font-size: 2em;
 }
-.head div button, .btn {
+.head div button{
     background-color: #ff6565;
     padding: 8px;
     border: #ff6565 solid 3px;
@@ -81,10 +81,10 @@ header nav ul li a:hover{
     margin-top: 3em;
     margin-bottom: 5em;
 }
-.head div button , .btn:hover{
+.head div button:hover{
     opacity: .9;
 }
-.head div button a , .btn a {
+.head div button a {
     text-decoration: none;
     color: #fff;
     font-size: 1em;
@@ -167,13 +167,27 @@ header nav ul li a:hover{
     font-size: .8em;
 }
 .results2{
-    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 3em;
 }
 .results2 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2em;
+}
+.results .results2 .style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.style div{
+    padding: 1em;
+}
+.results2 div div{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -183,7 +197,7 @@ header nav ul li a:hover{
     font-size: 1em;
     height: 15em;
 }
-.results2 div div{
+.results2 div div div  {
     position: absolute;
 }
 .results2 img{
@@ -193,6 +207,12 @@ header nav ul li a:hover{
 .results2 div div p{
     font-size: .7em;
     margin-top: 2em;
+}
+#services .style{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .contact{
     width: 100%;
@@ -226,21 +246,84 @@ header nav ul li a:hover{
 .contact1 div form input:focus{
     outline: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 580px){
+.btn{
+    background-color: #ff6565;
+    padding: 8px;
+    border: #ff6565 solid 3px;
+    border-radius: 2em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+.btn:hover{
+    opacity: .9;
+}
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px){
+    body{
+        font-size: 17px;
+        background-position: top center;
+        background-size: 1000px;
+    }
+    .nav img{
+        margin-left: -7em;
+    }
+    #nav li a{
+        font-size: 1em;
+        margin-right: -1em;
+    }
+    .head div{
+        width: 100%;
+        font-size: .8em;
+    }
+    .head div button{
+        font-size: .7em;
+    }
+    .head div p{
+        font-size: .7em;
+    }
+    .what{
+        padding-top: 10em;
+    }
+    #services{
+        flex-direction: column;
+        margin: 2em;
+        padding: 2em;
+    }
+    #services div{
+        padding: 2em;
+    }
+    #services .style{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .bg{
+        background-position: center;
+        margin-top: 20em;
+    }
+    .results1 h1{
+        text-align: center;
+    }
+    .results2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .results2 .style {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 480px){
     body{
         font-size: 16px;
         background-position: top center;
@@ -303,19 +386,36 @@ header nav ul li a:hover{
         margin: 2em;
         padding: 2em;
     }
+    #services .style{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
     #services div{
         padding: 2em;
     }
     .bg{
         background-position: center;
-        margin-top: 20em;
+        margin-top: 30em;
     }
     .results1 h1{
         text-align: center;
     }
     .results2{
+        width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .bg .results2 .style {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 0;
+        padding: 0;
     }
     .contact1{
         width: 95%;
