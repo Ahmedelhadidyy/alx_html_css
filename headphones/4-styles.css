@@ -226,7 +226,25 @@ header nav ul li a:hover{
 .contact1 div form input:focus{
     outline: none;
 }
-
+footer{
+    background: #071629;
+    height: 250px;
+}
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: .7em;
+    margin-top: 0;
+    color: #fff;
+}
 
 
 
@@ -327,6 +345,17 @@ header nav ul li a:hover{
     }
     .contact1 div form input{
         width: 23em;
+    }
+    footer{
+        padding: 3em 0;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }   
+    footer div div {
+        display: flex;
+        flex-direction: row;
     }
 
 }
