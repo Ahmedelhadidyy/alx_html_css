@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("headphones_hero_1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 18px;
+}
+header{
+    position: relative;
+}
+#check{
+    display: none;
+}
+header label{
+    position: absolute;
+    font-size: 1.2em;
+    left: 50px ; 
+    top: 30px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+header label:hover{
+    cursor: pointer;
+    color: #ff6565;
+}
+header nav{
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10em;
+    margin-bottom: 4em;
+}
+header nav img{
+    width: 10em;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+   display: inline; 
+   padding: 1em;
+}
+header nav ul li a{
+    text-decoration: none;
+    display: inline;
+    color: #fff;
+}
+header nav ul li a:hover{
+    color: #ff6565;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.head div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-top: 7em;
+    color: white;
+}
+.head div div h1{
+    font-size: 2em;
+}
+.head div button{
+    background-color: #ff6565;
+    padding: 8px;
+    border: #ff6565 solid 3px;
+    border-radius: 2em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+.head div button:hover{
+    opacity: .9;
+}
+.head div button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+}
+.head div p{
+    width: 60%;
+    text-align: center;
+    font-size: .8em;
+    margin-top: 1em;
+}
+.what{
+    margin-top: 7em;
+    height: 70vh;
+    width: 100%;
+}
+.what div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.what1{
+    width: 55%;
+}
+.what1 p{
+    padding-top: 2em;
+    text-align: center;
+    font-size: .8em;
+}
+#services{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#services div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+}
+#services div i{
+    color: #ff6565;
+    font-size: 2em;
+    margin-bottom: .3em;
+}
+#services div h2{
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+#services div p{
+    text-align: center;
+    font-size: .7em;
+}
+.bg {
+    background-image: url("headphones_hero_2.jpg");
+    background-size: cover;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.results1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+    color: #fff;
+}
+.results1 p{
+    padding-top: 2em;
+    text-align: center;
+    font-size: .8em;
+}
+.results2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3em;
+}
+.results2 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2em;
+}
+.results .results2 .style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.style div{
+    padding: 1em;
+}
+.results2 div div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1em;
+    height: 15em;
+}
+.results2 div div div  {
+    position: absolute;
+}
+.results2 img{
+    width: 10em;
+    height: 10em;
+}
+.results2 div div p{
+    font-size: .7em;
+    margin-top: 2em;
+}
+.results2 .style div{
+    transition: transform 1s, opacity 1s;
+}
+.results2 .style div:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    border-radius: 100px;
+    cursor: pointer;
+}
+#services .style{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#services .style div{
+    transition: transform 1s, opacity 1s;
+}
+#services .style div:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+    background-color: #c4c4c4;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact1{
+    width: 60%;
+    margin: 5em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact1 div h1{
+    font-size: 2em;
+    margin-bottom: 3em;
+}
+.contact1 div form{
+    margin-bottom: 1.5em;
+}
+.contact1 div form input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 1.2em;
+    padding: 1em;
+    width: 20em;
+}
+.contact1 div form input:focus{
+    outline: none;
+} 
+.btn{
+    background-color: #ff6565;
+    padding: 8px;
+    border: #ff6565 solid 3px;
+    border-radius: 2em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+.btn:hover{
+    opacity: .9;
+}
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+}
+footer{
+    background: #071629;
+    height: 250px;
+}
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: .7em;
+    margin-top: 0;
+    color: #fff;
+}
+@media screen and (max-width: 768px){
+    body{
+        font-size: 17px;
+        background-position: top center;
+        background-size: 1000px;
+    }
+    .nav img{
+        margin-left: -7em;
+    }
+    #nav li a{
+        font-size: 1em;
+        margin-right: -1em;
+    }
+    .head div{
+        width: 100%;
+        font-size: .8em;
+    }
+    .head div button{
+        font-size: .7em;
+    }
+    .head div p{
+        font-size: .7em;
+    }
+    .what{
+        padding-top: 10em;
+    }
+    #services{
+        flex-direction: column;
+        margin: 2em;
+        padding: 2em;
+    }
+    #services div{
+        padding: 2em;
+    }
+    #services .style{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .bg{
+        background-position: center;
+        margin-top: 20em;
+    }
+    .results1 h1{
+        text-align: center;
+    }
+    .results2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .results2 .style {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+}
+@media screen and (max-width: 480px){
+    body{
+        font-size: 16px;
+        background-position: top center;
+        background-size: 930px;
+    }
+    header label{
+        display: block;
+        display: inline-flex;
+    }
+    #check:checked ~ .icons #menu {
+        display: none;
+    }
+    #check:checked ~ .icons #close {
+        display: block;
+    } 
+    #check:checked~ .nav #nav {
+        display: block;
+    }
+    header nav img{
+        width: 10em;
+        margin-top: 25px;
+    }
+    header nav{
+        height: 4em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10em;
+        margin-bottom: 4em;
+    }
+    header nav ul{
+        margin-top: 3em;
+        width: 100%;
+    }
+    #nav{
+        display: none;
+    }
+    header nav ul li{
+        display: block;
+     }
+     .icons #close{
+        display: none;
+     }
+     .head div{
+        width: 100%;
+        font-size: .8em;
+    }
+    .head div button{
+        font-size: .7em;
+    }
+    .head div p{
+        font-size: .7em;
+    }
+    .what{
+        padding-top: 10em;
+    }
+    #services{
+        flex-direction: column;
+        margin: 2em;
+        padding: 2em;
+    }
+    #services .style{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #services div{
+        padding: 2em;
+    }
+    .bg{
+        background-position: center;
+        margin-top: 30em;
+    }
+    .results1 h1{
+        text-align: center;
+    }
+    .results2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .bg .results2 .style {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    .contact1{
+        width: 95%;
+    }
+    .contact1 div form{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .contact1 div form input{
+        width: 23em;
+    }
+    footer{
+        padding: 3em 0;
+    }
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }   
+    footer div div {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
